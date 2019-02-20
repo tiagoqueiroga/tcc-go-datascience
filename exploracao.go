@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	// Pacotes do Gota
+	// Gota
 	"github.com/kniren/gota/dataframe"
 	"github.com/kniren/gota/series"
 )
