@@ -32,7 +32,7 @@ func main() {
 
 	// 1. Criando dataframe e selecionando principais colunas,
 	// por alguma razão o a coluna "App" está vindo como \ufeffApp
-	df := criaDataframe("googleplaystore.csv")
+	df := criaDataframe("bases/googleplaystore.csv")
 
 	// 2. Corrigindo nome da Coluna(App)
 	df = df.Rename("App", "\ufeffApp")

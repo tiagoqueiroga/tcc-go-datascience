@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	rawData, err := base.ParseCSVToInstances("iris.csv", true)
+	rawData, err := base.ParseCSVToInstances("bases/iris.csv", true)
 
 	// Verifica se arquivo foi encontrado
 	if err != nil {
